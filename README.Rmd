@@ -1,7 +1,7 @@
 This is our story for Lab 4, STAT 585X Class
 ====
 
-NACHALCA WNATS TO MAKE A CHANGE !!!!!
+"agrr, agrrr" said Karl, but noone could understand him, it happensto him since he was a child
 
 ```{r, echo=FALSE}
 library(ggplot2)
