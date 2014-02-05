@@ -1,3 +1,9 @@
 This is our story for Lab 4, STAT 585X Class
 ====
 
+```{r, echo=FALSE}
+library(ggplot2)
+
+ourdata <- rchisq(1000,3)
+qplot(ourdata, binwidth=0.05) + ggtitle("Chisquared data")
+```

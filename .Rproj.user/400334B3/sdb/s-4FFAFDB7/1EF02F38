@@ -1,0 +1,15 @@
+{
+    "contents" : "What would the world be like without the normal curve?\n========================================================\n\nOnce upon a time there was a land called Praxis. Mr and Mrs Boxy lived there happily in 01 Uniform, Distribution. \n\nThey were content in this land. They made many babies. Here is a family portrait.\n```{r, echo=FALSE}\nlibrary(ggplot2)\n\nx <- runif(1000)\nqplot(x, binwidth=0.05) + ggtitle(\"Uniform Babies\")\n```\n\nThey often took their children to hike the uneven peaks of Gammamountain.\n```{r, echo=FALSE}\nqplot(rgamma(1000, 3, 4)) + ggtitle(\"Gammamountain\")\n```\n\nLittle did they know that the Gammamountains are the home of the February 29th movement; a revolutionary rebel group led by General Zod fighting the kleptocratic loyalist government.  As a defensive measure against loyalist forces, General Zod has deployed a series of spike traps.  These spike traps are aptly named \"Dirac Delta Deathtraps\":\n```{r, echo=FALSE}\nx = seq(-5, 5, by = 0.05)\ny = rep(1, length(x))\nplot(x,y,type=\"h\",xlim=c(-0.6,0.6),ylim=c(0,2))\n```\n\nOblivious, the family started making their way up the mountain.\n```{r, echo=FALSE}\nr = runif(30,0,2)\nx = c(1:30)\nx=r+x\ny = c(1:30)\nqplot(x,y) + geom_line()\n```\n\nOn they way up Gammamountian, a booming voice from the sky declared \"LET ALPHA BE 1, FOR IT PLEASES ME.\" Luckily, the Boxy family brought their sleds and enjoyed their ride down the new of Gammamountain. But on their way down, the forgot everything they had ever known, as if they were memoryless.\n```{r, echo = FALSE}\nqplot(rexp(1000, 4), binwidth=0.05) + ggtitle(\"The New Gammamountain\")\n```\n\n\nAnd so the normal curve staid the elusive beast.",
+    "created" : 1391636457074.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1198908747",
+    "id" : "1EF02F38",
+    "lastKnownWriteTime" : 1391635604,
+    "path" : "//iastate.edu/cyfiles/andreeae/Desktop/GitHub/stat585/no-normal.Rmd",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}
