@@ -7,3 +7,6 @@ library(ggplot2)
 ourdata <- rchisq(1000,3)
 qplot(ourdata, binwidth=0.05) + ggtitle("Chisquared data")
 ```
+
+Nacho, where are your changes?
+
