@@ -1,6 +1,8 @@
 This is our story for Lab 4, STAT 585X Class
 ====
 
+NACHALCA WNATS TO MAKE A CHANGE !!!!!
+
 ```{r, echo=FALSE}
 library(ggplot2)
 
