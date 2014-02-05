@@ -2,11 +2,12 @@ This is our story for Lab 4, STAT 585X Class
 ====
 by Alvarez, Basulto, Erciulescu, Nguyen
 
-"agrr, agrrr" said Karl, but noone could understand him, it happensto him since he was a child
+"agrr, agrrr" said Karl, but no one could understand him, it happens to him since he was a child
 
 ```{r, echo=FALSE}
 library(ggplot2)
 
+set.seed(2014)
 ourdata <- rcauchy(1000)
 qplot(ourdata, binwidth=5) + ggtitle("Cauchy data")
 ```
