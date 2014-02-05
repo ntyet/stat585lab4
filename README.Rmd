@@ -7,7 +7,7 @@ NACHALCA WNATS TO MAKE A CHANGE !!!!!
 library(ggplot2)
 
 ourdata <- rcauchy(1000)
-qplot(ourdata, binwidth=0.05) + ggtitle("Cauchy data")
+qplot(ourdata, binwidth=5) + ggtitle("Cauchy data")
 ```
 
 Nacho, where are your changes?
