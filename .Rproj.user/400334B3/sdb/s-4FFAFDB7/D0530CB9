@@ -1,10 +1,10 @@
 {
-    "contents" : "This is our story for Lab 4, STAT 585X Class\n====\n\n```{r, echo=FALSE}\nlibrary(ggplot2)\n\nourdata <- rchisq(1000,3)\nqplot(ourdata, binwidth=0.05) + ggtitle(\"Chisquared data\")\n```\n",
+    "contents" : "This is our story for Lab 4, STAT 585X Class\n====\n\n```{r, echo=FALSE}\nlibrary(ggplot2)\n\nourdata <- rchisq(1000,3)\nqplot(ourdata, binwidth=0.05) + ggtitle(\"Chisquared data\")\n```\n\n\n",
     "created" : 1391635993417.000,
-    "dirty" : false,
+    "dirty" : true,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1526923110",
+    "hash" : "1162243013",
     "id" : "D0530CB9",
     "lastKnownWriteTime" : 1391636572,
     "path" : "//iastate.edu/cyfiles/andreeae/Desktop/GitHub/stat585lab4/README.Rmd",
