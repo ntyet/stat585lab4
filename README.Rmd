@@ -1,3 +1,6 @@
+
+No probles working from GS server, and I didn't make any ssh key or anything
+====
 This is our story for Lab 4, STAT 585X Class
 ====
 by Alvarez, Basulto, Erciulescu, Nguyen
