@@ -6,7 +6,7 @@ by Alvarez, Basulto, Erciulescu, Nguyen
 
 ![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1.png) 
 
-
+Change  
 Nacho, where are your changes?
 
 This is a test. Guillermo.
