@@ -7,9 +7,7 @@ by Alvarez, Basulto, Erciulescu, Nguyen
 
 
 
-"agrr, agrrr" said Karl, but no one could understand him, it happens to him since he was a child
-
-Dont Sync All YET!!!
+"Agrr, agrrr!" said Karl, but no one could understand him, it happens to him since he was a child.
 
 In a world where it was normal not being normal...Gauss was born and things started to change. The Earth all trembeled and the clouds started to move as the there was not enough space in the sky for the sun to show up. But it was not the sun, it was ... Cauchy!!! Hahahaha!
 
@@ -21,15 +19,19 @@ ourdata <- rcauchy(1000)
 qplot(ourdata, binwidth=5) + ggtitle("Cauchy data")
 ```
 
-<<<<<<< HEAD
-Oh, wait a moment! Moments? But there are no moments, time has taken a different dimension. 
+Oh, wait a moment! Moments? But there are no moments, time has taken a different dimension. There are birds... and some flowers!!!
 
-Now I am trying to submit  change directly from RStudio.
+Everybody was out of control, Fisher couldn't provide his own information. Kolmogorov used claimed that the average madness would be under control in the long run. It wasn't true. 
 
-=======
-Oh, wait a moment! Moments? But there are no moments, time has taken a different dimension. there are birds... and some flowers!!!
+```{r, echo=FALSE}
+library(ggplot2)
 
-we are trying to create a conflict, let's see what happens....hey Yet!
+set.seed(2014)
 
-How to continue the Story-Guillermo!?!?
->>>>>>> 170ede7f7a3a74b1e61392af213ce9367bd6e4f8
+n <- 1e5
+ourdata <- cumsum(rcauchy(n))/(1:n)
+ggplot(data.frame(time = 1:n, average_madness = ourdata), 
+       aes(time, average_madness)) + 
+  geom_line() + ggtitle("Cauchy data")
+```
+
