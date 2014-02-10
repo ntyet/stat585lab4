@@ -1,8 +1,11 @@
+
+No probles working from GS server, and I didn't make any ssh key or anything
+====
 This is our story for Lab 4, STAT 585X Class
 ====
 by Alvarez, Basulto, Erciulescu, Nguyen
 
-This normal curve seems to be fun. It is with us, as statistics students, all the way from introductry course to final 
+
 
 "agrr, agrrr" said Karl, but no one could understand him, it happens to him since he was a child
 
@@ -18,7 +21,15 @@ ourdata <- rcauchy(1000)
 qplot(ourdata, binwidth=5) + ggtitle("Cauchy data")
 ```
 
+<<<<<<< HEAD
 Oh, wait a moment! Moments? But there are no moments, time has taken a different dimension. 
 
 Now I am trying to submit  change directly from RStudio.
 
+=======
+Oh, wait a moment! Moments? But there are no moments, time has taken a different dimension. there are birds... and some flowers!!!
+
+we are trying to create a conflict, let's see what happens....hey Yet!
+
+How to continue the Story-Guillermo!?!?
+>>>>>>> 170ede7f7a3a74b1e61392af213ce9367bd6e4f8
