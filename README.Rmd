@@ -35,3 +35,16 @@ ggplot(data.frame(time = 1:n, average_madness = ourdata),
   geom_line() + ggtitle("Cauchy data")
 ```
 
+What's going on there? There is no constrain by normality, how things can be converged? At the moment, Khinchin randomly walked in the stage with confidence saying: "no worry, without normality, things are still in its order of nature mother". People are curious looking at him suppiously. Khinchin open his hand, and boom, here we are: "the law of the iterated logarithm".
+
+
+```{r, echo = FALSE}
+library(ggplot2)
+set.seed(2014)
+n <- 1e5
+ourdata <- cumsum(rpois(n,1)-1)[-c(1,2)]/sqrt((3:n)*log(log(3:n)))
+ggplot(data.frame(time = 3:n, iterated_log = ourdata), 
+       aes(time, iterated_log)) + 
+  geom_line() + ggtitle("Poisson data")
+
+```
