@@ -17,6 +17,3 @@ Oh, wait a moment! Moments? But there are no moments, time has taken a different
 
 we are trying to create a conflict, let's see what happens....hey Yet!
 
-I am creat a conflict
-
-Letsee how I can solve the conflict
