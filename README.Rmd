@@ -1,29 +1,26 @@
 
-No probles working from GS server, and I didn't make any ssh key or anything
 ====
-This is our story for Lab 4, STAT 585X Class
+The world we live in ...
 ====
 by Alvarez, Basulto, Erciulescu, Nguyen
 
 
+"Agrr, agrrr!" said Karl, but no one could understand him, it happens to him since he was a child. He knew how to fix it, just a little less weight on the tails and everithing will converge so much nicer... The Earth all trembeled and the clouds started to move as the there was not enough space in the sky for the sun to show up. 
 
-"Agrr, agrrr!" said Karl, but no one could understand him, it happens to him since he was a child.
-
-In a world where it was normal not being normal...Gauss was born and things started to change. The Earth all trembeled and the clouds started to move as the there was not enough space in the sky for the sun to show up. But it was not the sun, it was ... Cauchy!!! Hahahaha!
-
-```{r, echo=FALSE}
+But it was not the sun, it was ... Cauchy!!! Hahahaha!
+```{r1, tidy=TRUE}
 library(ggplot2)
-
 set.seed(2014)
 ourdata <- rcauchy(1000)
 qplot(ourdata, binwidth=5) + ggtitle("Cauchy data")
 ```
 
-Oh, wait a moment! Moments? But there are no moments, time has taken a different dimension. There are birds... and some flowers!!!
+Oh!, wait a moment!, Andrei said. 
+Fisher's look seem to be lost on emptyness, without any expectation. -Moments? -he replies- But there are no moments, time has taken a different dimension. There are birds... and some flowers!!!
 
-Everybody was out of control, Fisher couldn't provide his own information. Kolmogorov used claimed that the average madness would be under control in the long run. It wasn't true. 
+Andrei, the russian mastermind, master or all averages, claimed the average madness is the only way to put anything under control in the long run. So quickly started to average everithing he had close to his hands...
 
-```{r, echo=FALSE}
+```{r2, tidy=TRUE}
 library(ggplot2)
 
 set.seed(2014)
@@ -35,10 +32,13 @@ ggplot(data.frame(time = 1:n, average_madness = ourdata),
   geom_line() + ggtitle("Cauchy data")
 ```
 
-What's going on there? There is no constrain by normality, how things can be converged? At the moment, Khinchin randomly walked in the stage with confidence saying: "no worry, without normality, things are still in its order of nature mother". People are curious looking at him suppiously. Khinchin open his hand, and boom, here we are: "the law of the iterated logarithm".
+"It's not working ! What's going on there?" - said andrei crying like there were no tomorrow. 
 
+"There is no constrain by normality, how things can be converged?" Said Khinchin, at the moment, who randomly walked into the scene and with confidence saying: "no worry, without normality, we still will make it, there is an order in  mother nature". 
 
-```{r, echo = FALSE}
+People are curious looking at him suppiously. Khinchin open his hand, and boom, here we are: the law of the iterated logarithm.
+
+```{r3, tidy=TRUE}
 library(ggplot2)
 set.seed(2014)
 n <- 1e5
